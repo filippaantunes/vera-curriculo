@@ -1,0 +1,11 @@
+https://filippaantunes.github.io/curr-culo-vera/
+
+vera_curriculo 2026 GitHub
+
+
+
+Sempre que quiseres mudar uma vírgula, adicionar um curso ou alterar uma cor, basta ires ao GitHub, editar o ficheiro index.html e guardar (Commit).
+
+O site atualiza-se sozinho em poucos minutos.
+
+O teu QR Code continuará a funcionar sempre, porque o link (URL) do site não muda, mesmo que tu alteres o conteúdo lá dentro!
