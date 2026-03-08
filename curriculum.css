@@ -286,3 +286,49 @@ a:hover {
         justify-content: center;
     }
 }
+
+/* Botão de troca de língua - Ajustado ao teu estilo */
+.language-switch {
+    text-align: right;
+    margin-bottom: 10px;
+    padding-right: 10px;
+}
+
+.lang-btn {
+    font-size: 0.8em;
+    color: #084B8A !important; /* O teu azul escuro */
+    border: 1px solid #58D3F7; /* O teu azul claro */
+    padding: 5px 12px;
+    border-radius: 20px;
+    background-color: transparent;
+    transition: 0.3s;
+}
+
+.lang-btn:hover {
+    background-color: #58D3F7;
+    color: white !important;
+    text-decoration: none !important;
+}
+
+/* Garante que as listas nas competências tenham o mesmo tamanho do texto normal */
+.skills-item ul {
+    font-size: 1em; /* Aumenta de 0.9em para 1em para igualar ao parágrafo */
+    margin-bottom: 15px;
+}
+
+.skills-item ul li {
+    margin-bottom: 8px; /* Dá um pouco mais de ar entre os tópicos */
+    line-height: 1.6;   /* Mantém o mesmo entalamento do teu body */
+    text-align: justify; /* Alinha o texto como o parágrafo antigo */
+}
+
+/* Para os títulos dentro dos itens (se usares strong) */
+.skills-item li strong {
+    color: #333; /* Mantém a cor que já usas no body */
+    font-weight: bold;
+}
+
+/* Forçar o tamanho da letra nas competências, seja qual for a língua */
+.skills-item p, .skills-item li {
+    font-size: 1.1em !important; /* O !important dá prioridade total */
+}
